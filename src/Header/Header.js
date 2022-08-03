@@ -13,7 +13,7 @@ const Header =()=> {
                             <img src={logo} alt='logo'/>
                         </div>
                         <div className='header-second'>
-                            <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Drop Me!</a>
+                     
 
                             <ul id='dropdown1' class='dropdown-content'>
                                 <li><a href="#!">one</a></li>
