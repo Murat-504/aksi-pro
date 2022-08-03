@@ -1,0 +1,50 @@
+.banner{
+    display: flex;
+    margin-top: 45px;
+}
+h1{
+    font-weight: 900;
+    font-size: 60px;
+    color: white;
+}
+.banner-text{
+    font-weight: normal;
+    font-size: 20px;
+    color: white;
+    padding-bottom: 25px;
+}
+.banner-btn{
+    width: 270px;
+    height: 56px;
+    border: none;
+    background: linear-gradient(99.01deg, #FF9200 4.22%, #FFCC00 108.35%);
+    border-radius: 50px;
+}
+.banner-btn:hover{
+    box-shadow: 0px 4px 5px #FF9200, 0px 10px 15px #1678AC;
+    transition: 0.9 ease;
+}
+.banner-btn a{
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;  
+}
+.banner-bottom__text{
+    padding-top: 150px;
+    color: #333333;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 180%;
+}
+.banner-right{
+    position: absolute;
+}
+.banner-right img{
+    width: 100%;
+}
+.banner-img{
+    position: absolute;
+    z-index: 2;
+    top: 135px;
+}

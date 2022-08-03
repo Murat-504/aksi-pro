@@ -1,0 +1,49 @@
+@import './Banner/Banner.css';
+.header{
+    background: linear-gradient(180deg, #00549A 0%, #20A0C9 81.85%);
+    height: 700px;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #ffffff;
+}
+.header-second ul{
+    display: flex;
+    list-style-type: none;
+}
+.header-second ul li a{
+    padding-left: 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+.header-third ul{
+    display: flex;
+    list-style-type: none;
+}
+.item-question{
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+    color: #FFCC00;
+}
+.item-question a{
+    color: #FFCC00;
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 20px;
+}
+.item-register{
+    line-height: 8px;
+}
+.item-register p{
+    text-align: end;
+    font-size: 14px;
+    font-weight: 600;
+}
+.item-register span{
+    font-size: 20px;
+    font-weight: 600;
+}
