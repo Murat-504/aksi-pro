@@ -16,6 +16,7 @@ h3{
 .cards{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 .card1{
     position: relative;
